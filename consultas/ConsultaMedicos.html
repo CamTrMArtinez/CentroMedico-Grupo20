@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="EstiloConsulta.css">
+	<title>CentroMe</title>
+    <script src="https://kit.fontawesome.com/2fe63c3d14.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="menu" id="menu">
+            <div class="contenedor contenedor-botones-menu">
+                <button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+                <button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+            </div>
+    
+            <div class="contenedor contenedor-enlaces-nav">
+                <div class="btn-departamentos" id="btn-departamentos">
+                    <p><span>Categorias</span></p>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+    
+                <div class="enlaces">
+                    <a href="#">Inicio</a>
+                    <a href="#">Buscar</a>
+                    <a href="#">registrarme</a>
+                    <a href="#">ingresar</a>
+                    <a href="#">Configuracion</a>
+                </div>
+            </div>
+    
+            <div class="contenedor contenedor-grid">
+                <div class="grid" id="grid">
+                    <div class="categorias">
+                        <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                        <h3 class="subtitulo">Categorias</h3>
+    
+                        <a href="#" data-categoria="registro">Genera tu registro<i class="fas fa-angle-right"></i></a>
+                        <a href="#" data-categoria="consulta">Consulta<i class="fas fa-angle-right"></i></a>
+                    </div>
+    
+                    <div class="contenedor-subcategorias">
+                        <div class="subcategoria " data-categoria="registro">
+                            <div class="registro">
+                                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                                <h3 class="subtitulo">Registro</h3>
+                                <a href="#">Registro Pacientes</a><br>
+                                <a href="#">Registro Doctores</a>
+                            </div>
+    
+                            <div class="banner-subcategoria">
+                                <a href="#">
+                                    <img src="./fotos/foto-registro-principal.jpeg" alt="fotoprincipal">
+                                </a>
+                            </div>
+    
+                            <div class="galeria-subcategoria">
+                                <a href="#">
+                                    <img src="./fotos/foto-registro1.png" alt="fotoRegistro">
+                                </a>
+                                <a href="#">
+                                    <img src="./fotos/fotos-paciente.jpeg" alt="fotoRegistro">
+                                </a>
+                                <a href="#">
+                                    <img src="./fotos/foto-registro2.png" alt="fotoRegistro">
+                                </a>
+                                <a href="#">
+                                    <img src="./fotos/foto-doctores.jpeg" alt="fotoRegistro">
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="subcategoria" data-categoria="consulta">
+                            <div class="consulta">
+                                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                                <h3 class="subtitulo">Consulta</h3>
+                                <a href="#">Consulta registro doctores</a><br>
+                                <a href="#">Consulta registro pacientes</a>
+                            </div>
+    
+                            <div class="banner-subcategoria">
+                                <a href="#">
+                                    <img src="./fotos/Consulta-Principal.png" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="galeria-subcategoria">
+                                <a href="#">
+                                    <img src="./fotos/consulta-2.jpeg" alt="fotoConsulta">
+                                </a>
+                                <a href="#">
+                                    <img src="./fotos/foto-doctores.jpeg" alt="fotoConsulta">
+                                </a>
+                                <a href="#">
+                                    <img src="./fotos/consulta-1.jpeg" alt="fotoConsulta">
+                                </a>
+                                <a href="#">
+                                    <img src="./fotos/fotos-paciente.jpeg" alt="fotoRegistro">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main class="contenedor">
+        <article class="contenedorHoja">
+        <section class="contenedorCarrusel">
+            <div id="inicio">
+                <div class="iconos">
+                    <ul>
+                        <li><span><input type="checkbox"></span></li>
+                        <li>
+                            <button>
+                                <i class="material-icons">add_circle</i>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <i class="material-icons">edit</i>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <i class="material-icons">delete</i>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <i class="material-icons">share</i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input type="text" name="" id="" class="search-input">
+                </div>
+            </div>
+            <div id="contenido">
+                <table class="contenidoTabla">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Numero de Cedula</th>
+                            <th>Consultorio</th>
+                            <th>Correo de contacto</th>
+                            <th>Especialidad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Camilo</td>
+                            <td>Toro</td>
+                            <td>10300000</td>
+                            <td>301</td>
+                            <td>Cam@gmail.com</td>
+                            <td>Dermatologia</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="fin"></div>
+        </section >
+        </article>
+
+    </main>
+    <footer class="piePagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="./fotos/logoTodos.png" alt="logoTodos">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Sobre nosotros</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, consequatur ab facilis rem at minus quas sit dolores ipsa quibusdam a laborum quasi aliquam tempora dicta. Aut rem veritatis incidunt!
+                Ducimus veniam officiis numquam eveniet nisi mollitia accusamus quidem nemo laudantium, perferendis sit, hic consectetur animi, nostrum eum magni quasi suscipit laboriosam provident quis! Eos inventore ipsa minus ducimus ut!</p>
+            </div>
+            <div class="box">
+                <h2>Siguenos</h2>
+                <div class="redSocial">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<script src="javaConsulta.js"></script>
+</body>
+</html> 
