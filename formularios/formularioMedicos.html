@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="EstiloConsulta.css">
 	<title>CentroMe</title>
+    
     <script src="https://kit.fontawesome.com/2fe63c3d14.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -109,63 +110,38 @@
     </header>
     <main class="contenedor">
         <article class="contenedorHoja">
-        <section class="contenedorCarrusel">
-            <div id="inicio">
-                <div class="iconos">
-                    <ul>
-                        <li><span><input type="checkbox"></span></li>
-                        <li>
-                            <button>
-                                <i class="material-icons">add_circle</i>
-                            </button>
-                        </li>
-                        <li>
-                            <button>
-                                <i class="material-icons">edit</i>
-                            </button>
-                        </li>
-                        <li>
-                            <button>
-                                <i class="material-icons">delete</i>
-                            </button>
-                        </li>
-                        <li>
-                            <button>
-                                <i class="material-icons">share</i>
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-                <div class="search">
-                    <input type="text" name="" id="" class="search-input">
-                </div>
-            </div>
-            <div id="contenido">
-                <table class="contenidoTabla">
-                    <thead>
-                        <tr>
-                            <th>Nombre</th>
-                            <th>Apellido</th>
-                            <th>Numero de Cedula</th>
-                            <th>Consultorio</th>
-                            <th>Correo de contacto</th>
-                            <th>Especialidad</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Camilo</td>
-                            <td>Toro</td>
-                            <td>10300000</td>
-                            <td>301</td>
-                            <td>Cam@gmail.com</td>
-                            <td>Dermatologia</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div id="fin"></div>
-        </section >
+            <article class="contenedorHoja">
+        
+                <section class="post-list">
+                    <div class="content">
+                        <section class="form-register">
+                            <h4>Formulario Registro</h4>
+                            <input class="textos" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre" required>
+                            <input class="textos" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido" required>
+                            <input class="textos" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required>
+                            <input class="textos" type="text" name="cedula" id="cedula" placeholder="Ingrese su numero cedula" required>
+                            <input class="textos" type="password" name="correo" id="correo" placeholder="Consultorio" required>
+                            <select name="especialidad" class="textos" required>
+                                <option value="none">Selecione su especialidad</option>
+                                <option>Medicina general.</option>
+                                <option>Cardiología.</option>
+                                <option>Medicina interna.</option>
+                                <option>Dermatología.</option>
+                                <option>Rehabilitación física.</option>
+                                <option>Psicología.</option>
+                                <option>Odontología.</option>
+                                <option>Radiología.</option>
+
+                            </select>
+                            <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+                            <input class="botons" type="submit" value="Registrar">
+                            <p><a href="#">¿Ya tengo Cuenta?</a></p>
+                          </section>   
+                        
+                    </div>
+                </section>
+            </article>
+        
         </article>
 
     </main>
