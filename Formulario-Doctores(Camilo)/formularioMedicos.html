@@ -114,14 +114,14 @@
         
                 <section class="post-list">
                     <div class="content">
-                        <section class="form-register">
+                        <form class="form-register" id="formRegistroD">
                             <h4>Formulario Registro</h4>
                             <input class="textos" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre" required>
                             <input class="textos" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido" required>
                             <input class="textos" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required>
                             <input class="textos" type="text" name="cedula" id="cedula" placeholder="Ingrese su numero cedula" required>
-                            <input class="textos" type="password" name="correo" id="correo" placeholder="Consultorio" required>
-                            <select name="especialidad" class="textos" required>
+                            <input class="textos" type="text" name="colsultorio" id="colsultorio" placeholder="Consultorio" required>
+                            <select name="especialidad" class="textos" id="especialidad" required>
                                 <option value="none">Selecione su especialidad</option>
                                 <option>Medicina general.</option>
                                 <option>Cardiología.</option>
@@ -136,7 +136,7 @@
                             <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
                             <input class="botons" type="submit" value="Registrar">
                             <p><a href="#">¿Ya tengo Cuenta?</a></p>
-                          </section>   
+                        </form>   
                         
                     </div>
                 </section>
@@ -174,6 +174,7 @@
     </footer>
     
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
-	<script src="javaConsulta.js"></script>
+	<script src="Formulario.js"></script>
+    <script src="javaMenu.js"></script>
 </body>
 </html> 
