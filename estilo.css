@@ -272,6 +272,7 @@ a {
 	margin: 20px 0;
 	padding: 30px;
 	height: 1000px;
+	image-rendering: auto;
 }
 .contenedorCarusel{
     display: flex;
@@ -283,7 +284,7 @@ a {
 
 .post-list{
     display: flex;
-    min-height: 100vh;
+    min-height: 90vh;
     align-items: center;
     justify-content: center;
     padding: 30px 15px;
